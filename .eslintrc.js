@@ -44,6 +44,12 @@ module.exports = {
       {
         allow: ['warn', 'error']
       }
+    ],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'
+      }
     ]
   }
 };
