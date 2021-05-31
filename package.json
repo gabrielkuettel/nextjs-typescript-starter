@@ -12,7 +12,7 @@
     "lint": "eslint . --ext ts --ext tsx --ext js",
     "lint:fix": "eslint . --ext ts --ext tsx --ext js --fix",
     "test": "jest",
-    "test-all": "yarn lint && yarn type-check && yarn test"
+    "test:all": "yarn lint && yarn type-check && yarn test"
   },
   "husky": {
     "hooks": {
@@ -27,10 +27,15 @@
     ]
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^10.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-components": "^5.2.3"
+    "react-country-flag": "^2.3.0",
+    "react-feather": "^2.0.9",
+    "react-svg": "^13.0.6",
+    "styled-components": "^5.2.3",
+    "styled-system": "^5.1.5",
+    "framer-motion": "^4.1.17"
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.7",
