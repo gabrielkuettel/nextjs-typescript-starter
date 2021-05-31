@@ -10,7 +10,7 @@ const Container = styled.h1`
   }
 `;
 
-const Title = () => {
+const Title = (): JSX.Element => {
   return (
     <Container>
       Welcome to <a href="https://nextjs.org">Next.js!</a>

@@ -9,18 +9,18 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   env: {
     es6: true,
     browser: true,
     jest: true,
-    node: true,
+    node: true
   },
   settings: {
     react: {
-      version: 'detect',
-    },
+      version: 'detect'
+    }
   },
   rules: {
     'react/react-in-jsx-scope': 0,
@@ -36,14 +36,14 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': [
       2,
       {
-        argsIgnorePattern: '^_',
-      },
+        argsIgnorePattern: '^_'
+      }
     ],
     'no-console': [
       2,
       {
-        allow: ['warn', 'error'],
-      },
-    ],
-  },
-}
+        allow: ['warn', 'error']
+      }
+    ]
+  }
+};
